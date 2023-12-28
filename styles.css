@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f4f4; /* Soft pink background */
+}
+
+.countdown-container {
+  text-align: center;
+  color: #6b455e; /* Deep rose text color */
+}
+
+h1, h2 {
+  color: #b44d5c; /* Dark rose heading color */
+}
+
+#countdown {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #b44d5c; /* Dark rose countdown color */
+}
+
+#birthday-message {
+  color: #3a7a89; /* Teal birthday message color */
+  font-size: 2em;
+}
