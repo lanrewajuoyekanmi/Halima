@@ -1,29 +1,37 @@
-body {
-  font-family: 'Arial', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f9f4f4; /* Soft pink background */
-}
+<style>
 
-.countdown-container {
-  text-align: center;
-  color: #6b455e; /* Deep rose text color */
-}
+  /* Background image of roses */
+  body {
+    background-image: url('roses.jpg');
+    background-size: cover; 
+  }
 
-h1, h2 {
-  color: #b44d5c; /* Dark rose heading color */
-}
+  /* Rose petal borders */
+  #countdown {
+    border-image: url('rose-border.png') 30 stretch;
+  }
+  
+  /* Fancy romantic font */
+  body {
+    font-family: 'Great Vibes', cursive; 
+  }
+  
+  /* Subtle parchment texture */
+  body {
+    background-color: #f4ece3;
+  }
+  
+  /* Heart moving animation */  
+  #birthday:before {
+    content: "💖";
+    display: inline-block; 
+    animation: heartMove 2s infinite;
+  }
 
-#countdown {
-  font-size: 2em;
-  margin: 20px 0;
-  color: #b44d5c; /* Dark rose countdown color */
-}
-
-#birthday-message {
-  color: #3a7a89; /* Teal birthday message color */
-  font-size: 2em;
-}
+  @keyframes heartMove {
+    0%   {transform: translateX(0);}
+    50%  {transform: translateX(30px);}
+    100% {transform: translateX(0);}
+  }
+  
+</style>
