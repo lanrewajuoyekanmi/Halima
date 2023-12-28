@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Set the target date for the birthday (format: "YYYY/MM/DD HH:MM:SS")
-  const birthdayDate = new Date("2023/12/31 00:00:00").getTime();
+  const birthdayDate = new Date("2023/12/29 00:00:00").getTime();
 
   // Update the countdown every second
   const countdownInterval = setInterval(updateCountdown, 1000);
